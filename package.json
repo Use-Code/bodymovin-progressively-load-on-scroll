@@ -1,0 +1,12 @@
+{
+    "name": "bodymovin-progressively-load-on-scroll",
+    "version": "1.0.0",
+    "scripts": {
+        "start": "php -S 0.0.0.0:8000 -t demo"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Use-Code/bodymovin-progressively-load-on-scroll"
+    },
+    "author": "use-code"
+}

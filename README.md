@@ -3,7 +3,9 @@
 
 Required
 -------------
-Add jquery to your page.
+Add to your page :
+- [Jquery](https://jquery.com/)
+- [Bodymin](https://github.com/bodymovin/bodymovin)
 
 Source code
 -------------
@@ -52,3 +54,4 @@ Demo
 
 `npm run start`  
 `open page http://localhost:8000`
+

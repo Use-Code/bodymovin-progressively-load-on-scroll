@@ -1,32 +1,32 @@
 {
-  "name": "bodymovin-progressively-load-on-scroll",
-  "version": "0.0.1",
-  "main": "bodymovin-animation.min.js",
-  "scripts": {
-    "start": "php -S 0.0.0.0:8000",
-    "build": "uglifyjs --compress --mangle --output bodymovin-animation.min.js -- bodymovin-animation.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Use-Code/bodymovin-progressively-load-on-scroll.git"
-  },
-  "bugs": {
-    "url": "https://github.com/Use-Code/bodymovin-progressively-load-on-scroll/issues"
-  },
-  "keywords": [
+    "name": "bodymovin-progressively-load-on-scroll",
+    "version": "0.0.2",
+    "main": "bodymovin-animation.min.js",
+    "scripts": {
+        "start": "php -S 0.0.0.0:8000",
+        "build": "uglifyjs --compress --mangle --output bodymovin-animation.min.js -- bodymovin-animation.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Use-Code/bodymovin-progressively-load-on-scroll.git"
+    },
+    "bugs": {
+        "url": "https://github.com/Use-Code/bodymovin-progressively-load-on-scroll/issues"
+    },
+    "keywords": [
     "bodymovin",
     "progressive",
     "load",
     "scroll"
   ],
-  "license": "MIT",
-  "author": "use-code",
-  "devDependencies": {
-    "uglify-js": "^3.0.28"
-  },
-  "description": "[![npm version](https://badge.fury.io/js/bodymovin-progressively-load-on-scroll.svg)](https://www.npmjs.com/package/bodymovin-progressively-load-on-scroll)",
-  "homepage": "https://github.com/Use-Code/bodymovin-progressively-load-on-scroll#readme",
-  "dependencies": {
-    "uglify-js": "^3.0.28"
-  }
+    "license": "MIT",
+    "author": "use-code",
+    "devDependencies": {
+        "uglify-js": "^3.0.28"
+    },
+    "description": "[![npm version](https://badge.fury.io/js/bodymovin-progressively-load-on-scroll.svg)](https://www.npmjs.com/package/bodymovin-progressively-load-on-scroll)",
+    "homepage": "https://github.com/Use-Code/bodymovin-progressively-load-on-scroll#readme",
+    "dependencies": {
+        "uglify-js": "^3.0.28"
+    }
 }

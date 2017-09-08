@@ -7,6 +7,26 @@ Add to your page :
 - [Jquery](https://jquery.com/)
 - [Bodymin](https://github.com/bodymovin/bodymovin)
 
+How to use it
+-------------
+
+`npm install -S bodymin-progressively-load-on-scroll`  
+
+End add to your page
+```
+<script src="node_modules/bodymin-progressively-load-on-scroll/bodymin-animation.min.js" type="text/javascript"></script>
+```
+
+html source code  
+```
+<div 
+    class="animation" <!-- detect doms to animate -->
+    src="animations/test.json" <!-- animation path -->
+    animation-en=".class-name" <!-- optionnal : show() dom with name ".class-name" when the animation is finish -->
+    ></div>
+    ```
+
+
 Source code
 -------------
 

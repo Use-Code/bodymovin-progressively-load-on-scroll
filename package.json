@@ -1,12 +1,17 @@
 {
     "name": "bodymovin-progressively-load-on-scroll",
     "version": "1.0.0",
+    "main": "bodymin-animation.min.js",
     "scripts": {
-        "start": "php -S 0.0.0.0:8000 -t demo"
+        "start": "php -S 0.0.0.0:8000",
+        "build": "uglifyjs --compress --mangle --output bodymin-animation.min.js -- bodymin-animation.js"
     },
     "repository": {
         "type": "git",
         "url": "https://github.com/Use-Code/bodymovin-progressively-load-on-scroll"
     },
-    "author": "use-code"
+    "author": "use-code",
+    "devDependencies": {
+        "uglify-js": "^3.0.28"
+    }
 }

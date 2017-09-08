@@ -24,7 +24,7 @@ html source code
     src="animations/test.json" <!-- animation path -->
     animation-en=".class-name" <!-- optionnal : show() dom with name ".class-name" when the animation is finish -->
     ></div>
-    ```
+```
 
 
 Source code

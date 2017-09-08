@@ -1,5 +1,5 @@
 # Progressively load on scroll your animation
-
+[![npm version](https://badge.fury.io/js/bodymovin-progressively-load-on-scroll.svg)](https://www.npmjs.com/package/bodymovin-progressively-load-on-scroll)   
 
 Required
 -------------
